@@ -5,5 +5,11 @@ header {
 }.col-md-7>p, .col-md-5>p{
     font-family: 'Petemoss', cursive;
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 75;
+}
+.col-sm-6{
+    background-color: #1444e0;
+    background-color: ;
+    border: solid white 2px;
+    color: white;
 }
