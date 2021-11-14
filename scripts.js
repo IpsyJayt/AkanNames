@@ -31,7 +31,17 @@ if(monthOfBirth === 1 || monthOfBirth===10){
     monthCode= 4;
 }else if(monthOfBirth===9|| monthOfBirth===12){
     monthCode=5;
-}else(monthOfBirth===4 ||monthOfBirth===7){
+}else if (monthOfBirth===4 ||monthOfBirth===7){
     monthCode=6
+}
+
+if(cc===19){
+    centurycode=0;
+}else if (cc===18){
+    centurycode=2;
+} else if(cc===17){
+    centurycode=4;
+} else if (cc===20){
+    centurycode=6;
 }
 }
