@@ -13,6 +13,17 @@
 * Live link : https://ipsyjayt.github.io/AkanNames/
 
 # BDD.
+* Create a html form to collect user birthday  and gender info.
+* find the day of birth formula
+* find century digits codes.
+* find year digits codes.
+* find month codes.
+* write conditions for determining validity of day, month and year input.
+* assign codes to months, century and year digits.
+* add the weekdays and akan names for each gender.
+* calculate the day of birth using the formula
+* assign names to the day of birth
+
 # Technologies used.
 * HTML
 * CSS
