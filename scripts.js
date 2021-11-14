@@ -3,7 +3,7 @@ function generateAkanName(){
 var dayOfBIrth = parseInt(document.getElementById("day").value);
 var monthOfBirth = parseInt(document.getElementById("month").value);
 var yearOfBirth =document.getElementById("year").value;
-var gender = document.getElementById("gender").value;
+var gender = document.getElementById("gender");
 
 var cc = parseInt(yearOfBirth.slice(0,2));
 var yy = parseInt(yearOfBirth.slice(2,4));
@@ -44,4 +44,13 @@ if(cc===19){
 } else if (cc===20){
     centurycode=6;
 }
+
+var inputtedGender = gender.options[gender.selectedIndex].text;
+
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var femaleNames = ["Akosua","Adwoa"," Abenaa","Akua","Yaa","Afua","Ama"];
+var weekDays= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+
+
 }
