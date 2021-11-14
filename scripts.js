@@ -56,9 +56,9 @@ var dayCode = ((dayOfBIrth + monthCode +yy + Math.floor(yy/4) + centurycode)%7);
 
 
 if(inputtedGender=="Male"){
-    alert("YOU WERE BORN ON" + weekDays[dayCode]+ "AND YOUR AKAN NAME IS" + maleNames[dayCode]);
+    alert(" YOU WERE BORN ON: " + weekDays[dayCode]+ " AND YOUR AKAN NAME IS: " + maleNames[dayCode]);
 } else if(inputtedGender=="Female"){
-    alert("YOU WERE BORN ON" + " " + weekDays[dayCode]+ " " + "AND YOUR AKAN NAME IS" + " "+femaleNames[dayCode]);
+    alert("YOU WERE BORN ON: " +  weekDays[dayCode] +" AND YOUR AKAN NAME IS: " + femaleNames[dayCode]);
 
 }
 
