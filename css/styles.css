@@ -19,4 +19,8 @@ h3{
 #day, #month, #year #gender, #generate-button{
     margin: 10px;
 }
+#generate-button {
+    color: green;
+    background-color: yellow;
+}
 
