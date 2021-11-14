@@ -1,15 +1,22 @@
-header {
+header{
     background-color: #1444e0;
     color: white;
     text-align: center;
-}.col-md-7>p, .col-md-5>p{
+}
+.col-md-7>p .col-md-5>p{
     font-family: 'Petemoss', cursive;
     font-size: 40px;
-    font-weight: 75;
+    font-weight: 125;
 }
 .col-sm-6{
     background-color: #1444e0;
-    background-color: ;
     border: solid white 2px;
     color: white;
 }
+h3{
+    color: green;
+}
+#day, #month, #year #gender, #generate-button{
+    margin: 10px;
+}
+
