@@ -16,11 +16,14 @@ header{
 h3{
     color: green;
 }
-#day, #month, #year #gender, #generate-button{
+#day, #month, #year, #gender, #generate-button{
     margin: 10px;
+    border-radius: 25px;
+    padding: 7px;
 }
 #generate-button {
     color: green;
     background-color: yellow;
+    
 }
 
