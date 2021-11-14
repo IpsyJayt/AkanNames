@@ -52,5 +52,7 @@ var femaleNames = ["Akosua","Adwoa"," Abenaa","Akua","Yaa","Afua","Ama"];
 var weekDays= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 
+var dayCode = ((dayOfBIrth + monthCode +yy + Math.floor(yy/4) + centurycode)%7);
+
 
 }
