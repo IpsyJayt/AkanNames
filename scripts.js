@@ -55,7 +55,11 @@ var weekDays= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Satu
 var dayCode = ((dayOfBIrth + monthCode +yy + Math.floor(yy/4) + centurycode)%7);
 
 
-if(inputtedGender=="Male"){
+if(monthOfBirth===2 && yy%4!==0 && dayOfBIrth>28){
+    alert("Not A Leap Year, Choose A Day Between 1 and 28");
+}else if(monthOfBirth===2 && yy%4 ===0 && dayOfBIrth>29){
+    alert("Enter A Day Between 1 and 29")
+}else if(inputtedGender=="Male"){
     alert(" YOU WERE BORN ON: " + weekDays[dayCode]+ " AND YOUR AKAN NAME IS: " + maleNames[dayCode]);
 } else if(inputtedGender=="Female"){
     alert("YOU WERE BORN ON: " +  weekDays[dayCode] +" AND YOUR AKAN NAME IS: " + femaleNames[dayCode]);
